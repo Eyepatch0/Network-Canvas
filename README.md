@@ -77,6 +77,62 @@ Also, have a scatter plot to view the relationship between the 3 datasets.
 - Provided strategic repeater placement recommendations
 - Delivered interactive dashboard for monitoring
 
+### How to run the code
+
+**Prerequisites:**
+
+- Git
+- Python 3.6+
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Eyepatch0/Network-Canvas
+
+cd Network-Canvas
+```
+
+2. Create a virtual environment
+
+```bash
+python -m venv venv
+
+# Activate it (Windows)
+venv\Scripts\activate
+
+# Activate it (Linux/macOS)
+source venv/bin/activate
+```
+
+3. Install the required packages
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+4. Run the code
+
+```bash
+# Option 1: Run with Jupyter Notebook
+jupyter notebook
+```
+
+**Note**:Once Jupyter launches, select the correct kernel matching your virtual environment, then run the notebook cells.
+
+#### Quick Visualization Mode
+
+To view only the visualizations without running any code:
+bash
+
+- Run Voila to view the notebook as an interactive web app.
+
+```bash
+voila cellular_coverage_study.ipynb
+```
+
+Then open http://localhost:8866 in your browser to view the interactive visualizations.
+
 ### Future Work
 
 - Integrate real-time data feeds for dynamic monitoring
